@@ -12,15 +12,10 @@
   </script>
   
   <style scoped>
-  .layout {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Adjust this value based on your needs */
-  }
+
   
   .content-container {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-grow: 1; /* This will make the slot container take up the remaining space */

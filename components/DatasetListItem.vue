@@ -1,5 +1,5 @@
 <template>
-    <div class=" border-solid border-gray-200 border-1 border bg-opacity-50 rounded-lg p-4 w-[300px]" @click="() => router.push({ path: '/datasets/' + dataset.datasetId })
+    <div class="cursor-pointer hover:bg-gray-100 border-solid border-gray-200 border-1 border bg-opacity-50 rounded-lg p-4 w-[300px]" @click="() => router.push({ path: '/datasets/' + dataset.datasetId })
     ">
         <div class="flex items-center">
             <Data theme="outline" size="24" fill="#333" class="mr-2" />
