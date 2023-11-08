@@ -11,6 +11,9 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@unocss/nuxt": "^0.57.2",
+    "@unocss/preset-wind": "^0.57.2",
+    "arco-design-nuxt-module": "^0.0.16",
     "nuxt": "^3.8.1",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
