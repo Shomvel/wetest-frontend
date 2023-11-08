@@ -8,3 +8,8 @@ export type Dataset = {
     favoriteCount: number;
   };
   
+export type QuestionItem = {
+    id: string
+    question: string;
+    answer: string;
+};
